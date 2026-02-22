@@ -1,3 +1,4 @@
+// INTERVIEW AVAILABLE
 const interviewavailabele=document.getElementById("interviewavailabele");
 const of=document.getElementById("of");
 // no jobs 
@@ -42,6 +43,7 @@ const allbtn=document.getElementById("allbtn");
 const interviewbtn=document.getElementById("interviewbtn");
 const rejectedbtn=document.getElementById("rejectedbtn");
 
+// button toggle 
 function toggleBtn(id){
     interviewavailabele.classList.remove("hidden");
     of.classList.remove("hidden");
@@ -189,7 +191,7 @@ mainSection.addEventListener('click',function(event){
 
 const deleteBtns=document.getElementsByClassName('deleteBtn');
 
-// interview function 
+// INTERVIEW SECTION SHOWFUNCTION 
 function interviewSectionSHow(){
     interviewSection.innerHTML="";
     for(let interview of interviewCount){
@@ -219,7 +221,7 @@ function interviewSectionSHow(){
     }
 }
 
-// reject function 
+// REJECT SECTION  SHOW FUNCTION
 function rejectSectionSHow(){
     rejectSection.innerHTML="";
     for(let reject of rejectedCount){
