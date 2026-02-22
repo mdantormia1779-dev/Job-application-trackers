@@ -1,0 +1,8 @@
+
+/* google font */
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+}
+
+/* tailwind connect */
+@import "tailwindcss"
